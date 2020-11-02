@@ -91,7 +91,7 @@ class SlackRoulette{
 					foreach($group as $user){
 		
 						$str = "Hey!\n";
-						$str .= "Some people are hanging out in a on this call below.\n";
+						$str .= "Some people are hanging out on this call below.\n";
 						$str .= "You have about 10 minutes to get to know them better. Use the time wisely. Show your true colors.\n";
 						$str .= "Here are a few topics to talk about:\n";
 						$str .= $this->random_subjects();
